@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "droid";
+    src: url(img/fontes/idroid.otf);
+}
+
+body {
+    background-color: #E8E7C2;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #27ac67,  #13341F);
+    padding: 1px;
+    color: white;
+    margin: 0px;
+
+    text-align: center;
+    font-family: sans-serif
+}
+
+header > nav > ul > li:hover {
+    font-weight: 600;
+    background-color: #6fe79b79;
+    color: #1f5533fa;
+    padding: 5px;
+}
+
+header > nav > ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px 0px 10px;
+}
+
+main {
+    background-color: white;
+    margin: 0px 100px;
+    padding: 18px 15px;
+}
+
+main > p > span {
+    color: #0E3928;
+    font-weight: bold;
+}
+
+a {
+     text-decoration: none;
+     background-color: #4affa2af;
+     color: #15533a;
+     font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a::after {
+    content: "🔗";
+}
+
+main > p {
+    text-indent: 20px;
+    line-height: 28px;
+}
+
+main > picture > img {
+    width: 100%;
+    height: auto;
+}
+
+main > img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+main > h2{
+    font-family: "droid";
+    color: #0E3928;
+    margin: 0px;
+}
+
+main > h3 {
+    font-family: "droid";
+    color: #0E3928;
+    background-image: linear-gradient(to right, #88E1AC, #88e1ab00);
+}
+
+main > iframe {
+    display: block;
+    margin: auto;
+    border-width: 15px 22px;
+    border-style: solid;
+    border-color: #0E3928;
+}
+
+h4 {
+    background-color: #15573d;
+    color: white;
+    padding: 8px 0px 8px 10px;
+    margin: 20px 65px 0px 65px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer {
+    background-color: #7FE1AB;
+    margin: 0px 65px;
+    padding: 5px 15px;
+    border-radius: 0px 0px 5px 15px;
+}
+
+footer > ul {
+    display: inline-block;
+}
+
+footer > ul > li::before {
+    content: "✓ ";
+}
+
+main > footer > p > a {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+main > #frase {
+    text-indent: 0px;
+}
