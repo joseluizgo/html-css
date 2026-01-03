@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Exemplo de Formulario</h1>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
         <p>
             <label for="iest">Estado: </label>
             <select name="estado" id="iest">
@@ -36,6 +36,11 @@
                 <option value="DEV">Desenvolvedor</option>
                 <option value="PROF">Professor</option>
             </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="2"></textarea>
         </p>
 
         <p>
