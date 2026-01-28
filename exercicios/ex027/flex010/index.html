@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        div.container {
+            display: flex;
+            flex-flow: row nowrap;
+            background-color: blue;
+        }
+
+        div.item {
+            background-color: red;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
+        }
+
+        div#n1 {
+            flex-basis: 150px;
+            flex-grow: 0;
+            flex-shrink: 1;            
+        }
+
+        div#n2 {
+            flex-basis: 150px;
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+
+        div#n3 {
+            flex-basis: 150px;
+            flex-grow: 1;
+            flex-shrink: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="n1" class="item">A</div>
+        <div id="n2" class="item">B</div>
+        <div id="n3" class="item">C</div>
+    </div>
+</body>
+</html>
